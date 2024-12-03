@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+.quote{
+color: whitesmoke;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.email{
+    text-align: center;
+}
+
+
+.name{
+    text-align: center;
+    
+}
+.icon{
+    color: black;
+}
+.message{
+    /* text-align: center; */
+border-radius: 20pxpx;
+font-size:small;
+color:black;
+display: flex;
+flex-direction: column;
+height: 200px;
+
+}
+.form{
+    background-color: white;
+    border-radius: 6px;
+    color: whitesmoke;
+height: 70%;
+padding: 30px;
+display: flex;
+flex-direction: column;
+width: 20%;
+/* justify-content: space-around; */
+}
+.Message{
+    height: 250%;
+    box-shadow: 1px  2px 2px 3px grey;
+    font-size: 10px;
+}
+
+
+i{
+    font-size: 20px;
+}
+.socialIcon{
+    margin-right: 20px;
+    font-size: 30px;
+
+}
+.socialIcon:hover{
+    background-color:grey;
+}
+.socials
+{
+    cursor: pointer;  
+     
+}
+
+input{
+    width: 100%;
+}
+.email,.message,.name{
+    display: flex;
+    margin-top: 30%;
+    width: 100%;
+}
+.boss:hover{
+    box-shadow: 1px  2px 2px 3px grey;
+    
+}
+.email,.number,.location{
+    cursor: pointer;
+}
+.submitBtn{
+    background-color:blue;
+    color: whitesmoke;
+}
+
+

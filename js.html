@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar
+
+    </title>
+</head>
+<body>
+    <label for="text">Amount</label><br>
+    <input type="text" class="amount" placeholder="Type amount">
+    <label for="text">From</label>
+    <select name="from" id="from">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+    </select>
+    <label for="text">From</label>
+    <select name="to" id="to">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="EUR">INR</option>
+        <option value="EUR">NPR</option>
+    </select>
+<p class="show">COnverted Amount</p>
+
+<button class="convert">Convert</button>
+    <script>
+        const amount =document.querySelector('.amount')
+        const from =document.querySelector('#from')
+        const to =document.querySelector('#to')
+        const convert=document.querySelector('.convert')
+        const show=document.querySelector('.show')
+
+        convert.addEventListener('click',e=>{
+            fetch(`https://api.frankfurter.app/latest?amount=${amount.value}&from=${from.value}&to=${to.value}`)
+              .then(resp => resp.json())
+              .then((data) => {
+                // alert(`10 GBP = ${data.rates.USD} USD`);
+                console.log(data.rates)
+                show.textContent = data.rates[`${to.value}`]
+              });
+        })
+    </script>
+</body>
+</html>

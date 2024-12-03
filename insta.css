@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+    
+font-family: 'Roboto Condensed', sans-serif;
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.login_form
+{
+    font-size: 10px;
+}
+.username
+{
+    border-radius: 30px;
+}
+.create{
+    background-color: white;
+    width: 25%;
+    text-align: center;
+margin: auto;
+border-radius: 30px;
+font-size: 1.2rem;
+padding: 30px;
+height: 100vh;
+}
+.signup
+{
+    background-color: blue;
+}

@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+h1{
+    color:chocolate;
+    font-size: 30px;
+      
+}
+p{
+    background-color: white;
+    font-weight :bold;
+
+}
+ p.weblearnn {
+    background-color: red;
+}
+.over{
+    color: blue;
+    font-size: 50px;
+}
+.G{
+    color:blue;
+    
+}
+.o{
+    color:orange;
+    
+}
+.ol{
+    color:green;
+    
+}
+.logo{
+    font-size: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.logos{
+
+    background-color: seashell(143, 160, 152);
+    text-align: center;
+}
+
+.hello{
+            
+    font-family: kiwi maru;
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
+    border: 5px solid red;
+    border-radius: 50px;
+    padding: 10px 20px 10px;
+    
+}
+.right{
+    padding: 12px;
+    text-align: end;
+}
+.right a{
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(49, 44, 44);
+}
+
+.box{
+    /* margin-left: 200px; */
+    /* margin-left: auto; */
+    margin: auto;
+    position: relative;
+    width: 40%;
+    text-align: center;
+}
+#plus{
+    margin :auto;
+    background-color: oldlace;
+    margin-top: 50px;
+    
+}
+.shortcut {
+    height:150px;
+    width :150px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.shortcut:hover{
+    
+    box-shadow: 1px  2px 2px 3px grey;
+}
+#mic{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+
+a:hover{
+    cursor :pointer
+    box-shadow: 1px  2px 2px 3px grey;
+    
+}
+#search{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.why{
+    border-radius: 35px;
+    padding-left: 40px;
+    height: 30px;
+    width: 100%; 
+}
+.lucky{
+    width: 500px;
+    height: 100px;
+}
+.luckyBtn{
+    cursor:pointer;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.luckyBtn:hover{
+     box-shadow: 1px 1px 1px 1px grey;
+}

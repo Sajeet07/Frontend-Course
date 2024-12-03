@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+.pix{
+    font-size: 30px;
+ line-height: 50px;
+}
+.btn {
+    background-color: black;
+    color: white;
+    
+    
+}
+.buy:hover{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.now:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav :hover{
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 1px  2px 2px 3px white;
+
+}
+.color{
+    background-color: rgb(110, 146, 110);
+    position: relative;
+}
+.hello{
+    background-color: rgb(110, 146, 110);
+    color: white;
+}
+.img{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.down{
+    line-height: 25px;
+}
+
+@media (max-width:500px){
+    ul{
+        display: none !important;
+    }
+    .color{
+        text-align: center;
+        /* margin-right: 100px; */
+    }
+    .img{
+        left:-80PX ;
+        position: relative;
+        transform: scale(0.5);
+    }
+}
